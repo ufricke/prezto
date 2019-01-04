@@ -12,4 +12,14 @@ fi
 
 # Customize to your needs...
 
+export WORKSPACE=~/code/develop
+
+export SBT_OPTS="-Xms4G -Xmx4G -Xss1G"
+
+AGNOSTER_PROMPT_SEGMENTS[2]=
+
 . ~/.zsh_aliases
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
